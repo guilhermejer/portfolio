@@ -1,9 +1,39 @@
 
 const Skills = () => {
-  const skills = [
-    "React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS",
-    "Node.js", "Git", "REST APIs", "React Query", "Redux", "Next.js"
-  ];
+const skills = [
+    "Oracle (RAC)",
+    "Vertica",
+    "MSSQL",
+    "SQL",
+    "PL/SQL",
+    "Informatica PowerCenter",
+    "Azure (AZ-900)",
+    "OCI",
+    "GCP",
+    "Agile",
+    "SCRUM",
+    "ITSM (Itil v4)",
+    "Service Now",
+    "Shell/Bash",
+    "Python",
+    "NodeJS",
+    "Java",
+    "R",
+    "Linux: RHEL, Oracle Linux",
+    "Windows: Windows Server",
+    "Machine Learning",
+    "Modelos de regressão",
+    "Redes neurais artificiais",
+    "Excel",
+    "Power BI",
+    "Microsserviços",
+    "Oracle Weblogic",
+    "APIs",
+    "Control-M",
+    "Contêiners",
+    "Javascript",
+    "React"
+];
 
   return (
     <section id="skills" className="section-padding bg-accent/30">
@@ -11,7 +41,7 @@ const Skills = () => {
         <span className="inline-block px-3 py-1 text-sm rounded-full bg-accent text-secondary-foreground mb-4">
           Skills
         </span>
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">Technologies & Tools</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12">Tecnologias e Ferramentas</h2>
         <div className="glass-card p-8 rounded-lg">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {skills.map((skill, index) => (

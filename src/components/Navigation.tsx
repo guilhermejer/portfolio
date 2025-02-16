@@ -11,7 +11,7 @@ const Navigation = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
+  
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "py-4 bg-card/80 backdrop-blur-sm shadow-sm" : "py-6"}`}>
       <div className="container mx-auto px-6 flex items-center justify-between">
@@ -19,13 +19,19 @@ const Navigation = () => {
           Portfolio
         </a>
         <div className="hidden md:flex items-center gap-8">
-          {["About", "Projects", "Skills", "Contact"].map((item) => (
+          {[ 
+            {item: 'about', title:'Sobre'},
+            {item: 'experience', title:'Experiência'},
+            {item: 'projects', title:'Projetos'},
+            {item: 'skills', title:'Skills'},
+            {item: 'certifications', title:'Certificados'},
+            {item: 'contact', title:'Contato'}].map((item) => (
             <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
+              key={item.item}
+              href={`#${item.item.toLowerCase()}`}
               className="hover:text-primary transition-colors"
             >
-              {item}
+              {item.title}
             </a>
           ))}
         </div>

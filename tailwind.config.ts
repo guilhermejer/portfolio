@@ -66,12 +66,17 @@ export default {
             opacity: "1",
           },
         },
+        bgmove: {
+          "0%": { backgroundPosition: "0 0" },
+         "100%": { backgroundPosition: "0 200%" }
+       },
+     },
       },
       animation: {
         "fade-up": "fade-up 0.5s ease-out",
         "fade-in": "fade-in 0.3s ease-out",
+        bgmove: 'bgmove 40s infinite',
       },
     },
-  },
-  plugins: [import("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate")],
 } satisfies Config;

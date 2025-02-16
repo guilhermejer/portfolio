@@ -2,19 +2,22 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Project One",
-      description: "A modern web application built with React and TypeScript",
-      tags: ["React", "TypeScript", "Tailwind"],
+      title: "Portfolio",
+      description: "Uma aplicação WEB moderna utilizando react, vite e tailwind",
+      imgsrc:"/public/portfolio.png",
+      tags: ["React", "Vite", "TypeScript", "Tailwind", "Self-Hosting"],
     },
     {
-      title: "Project Two",
-      description: "Responsive e-commerce platform with seamless checkout",
-      tags: ["Next.js", "Redux", "Stripe"],
+      title: "Home lab",
+      description: "Em progresso...",
+      imgsrc:"/public/homelab.jpg",
+      tags: ["Linux", "Shell", "Networking", "Virtualization"],
     },
     {
-      title: "Project Three",
-      description: "Real-time dashboard with data visualization",
-      tags: ["React", "D3.js", "Firebase"],
+      title: "Cloud Host",
+      description: "Criação de máquinas virtuais na cloud para hostear jogos online",
+      imgsrc:"/public/cloud_host.png",
+      tags: ["Google Cloud", "OCI", "Linux", "Docker"],
     },
   ];
 
@@ -22,16 +25,16 @@ const Projects = () => {
     <section id="projects" className="section-padding">
       <div className="container mx-auto">
         <span className="inline-block px-3 py-1 text-sm rounded-full bg-accent text-secondary-foreground mb-4">
-          Projects
+          Projetos
         </span>
-        <h2 className="text-3xl md:text-4xl font-bold mb-12">Featured Work</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-12">Projetos pessoais</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
               className="glass-card p-6 rounded-lg hover:translate-y-[-4px] transition-transform duration-300"
             >
-              <div className="h-48 bg-accent rounded-md mb-4" />
+              <div className="h-48 bg-accent rounded-md mb-4"> <img className="w-full h-full bg-accent/20" src={project.imgsrc} alt={project.title} /></div>
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-foreground/80 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2">
