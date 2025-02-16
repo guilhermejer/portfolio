@@ -5,14 +5,14 @@ const Certifications = () => {
       title: "AZ 900",
       link:"https://learn.microsoft.com/pt-br/users/guilhermejeronymo-6324/credentials/511087a61308ce63",
       description: "Microsoft Certified: Conceitos básicos do Azure",
-      imgsrc:"/public/az900badge.svg",
+      imgsrc:"/src/contents/az900badge.svg",
       tags: ["Azure", "Cloud", "Network"],
     },
     {
       title: "OCI Foundations",
       link:"https://catalog-education.oracle.com/ords/certview/sharebadge?id=BAEEA48A3C25B730A2AF7BC9A7066D627071C1FDECAA08702B38F8ABB34D25C9",
       description: "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
-      imgsrc:"/public/OCIbadge.png",
+      imgsrc:"/src/contents/OCIbadge.png",
       tags: ["OCI", "Cloud", "Network"],
     },
   ];

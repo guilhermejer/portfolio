@@ -4,19 +4,19 @@ const Projects = () => {
     {
       title: "Portfolio",
       description: "Uma aplicação WEB moderna utilizando react, vite e tailwind",
-      imgsrc:"/public/portfolio.png",
+      imgsrc:"/src/contents/portfolio.png",
       tags: ["React", "Vite", "TypeScript", "Tailwind", "Self-Hosting"],
     },
     {
       title: "Home lab",
       description: "Em progresso...",
-      imgsrc:"/public/homelab.jpg",
+      imgsrc:"/src/contents/homelab.jpg",
       tags: ["Linux", "Shell", "Networking", "Virtualization"],
     },
     {
       title: "Cloud Host",
       description: "Criação de máquinas virtuais na cloud para hostear jogos online",
-      imgsrc:"/public/cloud_host.png",
+      imgsrc:"/src/contents/cloud_host.png",
       tags: ["Google Cloud", "OCI", "Linux", "Docker"],
     },
   ];
