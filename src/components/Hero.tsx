@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h3 className="text-4xl md:text-2xl font-bold mb-2 italic">
+          <h3 className="text-2xl md:text-2xl font-bold mb-2 italic">
             O futuro já chegou.
             <br />
             Só não está uniformemente distribuido.
