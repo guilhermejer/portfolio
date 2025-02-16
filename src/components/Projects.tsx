@@ -1,22 +1,25 @@
+import portfolioImg from '@/images/portfolio.png';
+import homelabImg from '@/images/homelab.jpg';
+import clouHostImg from '@/images/cloud_host.png';
 
 const Projects = () => {
   const projects = [
     {
       title: "Portfolio",
       description: "Uma aplicação WEB moderna utilizando react, vite e tailwind",
-      imgsrc:"/src/contents/portfolio.png",
+      imgsrc:portfolioImg,
       tags: ["React", "Vite", "TypeScript", "Tailwind", "Self-Hosting"],
     },
     {
       title: "Home lab",
       description: "Em progresso...",
-      imgsrc:"/src/contents/homelab.jpg",
+      imgsrc:homelabImg,
       tags: ["Linux", "Shell", "Networking", "Virtualization"],
     },
     {
       title: "Cloud Host",
       description: "Criação de máquinas virtuais na cloud para hostear jogos online",
-      imgsrc:"/src/contents/cloud_host.png",
+      imgsrc:clouHostImg,
       tags: ["Google Cloud", "OCI", "Linux", "Docker"],
     },
   ];

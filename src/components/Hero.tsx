@@ -1,3 +1,4 @@
+import fotoPerfil from "../images/foto_perfil.jpg"
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
             <div className="w-24 h-24 md:w-32 md:h-32 border-2 border-primary rounded-lg overflow-hidden ml-4">
               {
                 <img 
-                src="/src/contents/foto_perfil.jpg"
+                src={fotoPerfil}
                 alt="Guilherme Jeronymo"
                 className="w-full h-full object-cover"
                 />
