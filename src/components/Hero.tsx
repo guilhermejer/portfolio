@@ -36,10 +36,10 @@ const Hero = () => {
             <br />
             MBA em Data Science & Analytics.
           </p>
-          
+          <a
             href="#contact"
             className="inline-block px-8 py-3 rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-opacity"
-          <a>
+          >
             Contato
           </a>
         </div>

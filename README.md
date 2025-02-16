@@ -7,6 +7,12 @@ O Objetivo desse projeto é criar uma página onde eu possa divulgar meu perfil 
 ### Detalhes técnicos
 Essa página foi desenvolvida utilizando como base o framework [**react**](https://react.dev) em cunjunto com o [**vite**](https://vite.dev/guide/) e [**tailwind**](https://tailwindcss.com), foram utilizadas ferramentas de IA como [**loveable**](https://lovable.dev) e [**claude sonnet**](https://claude.ai).
 
+Este projeto está sendo hosteado em uma máquina virtual da google cloud, através da cloud também configurei o DNS, apontando o domínio que adquiri.
+
+Confira agora mesmo:
+
+##### [guilhermejer.online](guilhermejer.online)
+
 ### Configurando ambiente local
 ##### Requisitos
 - [Node](https://nodejs.org/pt)
