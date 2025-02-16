@@ -37,7 +37,13 @@ const Projects = () => {
               key={index}
               className="glass-card p-6 rounded-lg hover:translate-y-[-4px] transition-transform duration-300"
             >
-              <div className="h-48 bg-accent rounded-md mb-4"> <img className="w-full h-full bg-accent/20" src={project.imgsrc} alt={project.title} /></div>
+              <div className="aspect-video w-full rounded-md mb-4 overflow-hidden">
+                <img 
+                  src={project.imgsrc} 
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
               <p className="text-foreground/80 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2">

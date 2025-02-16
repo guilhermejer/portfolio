@@ -36,7 +36,7 @@ const Certifications = () => {
                 target="_blank" rel="noopener noreferrer"
                 href={certifications.link}
               >
-              <div className="h-48 bg-accent rounded-md mb-4"> <img className="w-full h-full bg-accent/20" src={certifications.imgsrc} alt={certifications.title} /></div>
+              <div className="aspect-video w-full rounded-md mb-4 overflow-hidden"> <img className="w-full h-full" src={certifications.imgsrc} alt={certifications.title} /></div>
               </a>
               <h3 className="text-xl font-semibold mb-2 text-center">{certifications.title}</h3>
               <p className="text-foreground/80 mb-4">{certifications.description}</p>
