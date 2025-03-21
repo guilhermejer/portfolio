@@ -11,7 +11,7 @@ Este projeto está sendo hosteado em uma máquina virtual da google cloud, atrav
 
 Confira agora mesmo:
 
-##### [guilhermejer.online](guilhermejer.online)
+##### [guilhermejer.online](https://guilhermejer.online)
 
 ### Configurando ambiente local
 ##### Requisitos
